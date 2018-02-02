@@ -1,0 +1,38 @@
+{
+  "name": "reactwebpack",
+  "version": "1.0.0",
+  "description": "webpack starter for react",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dev_server.js",
+    "bundle": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briandhkim/ReactWebpack.git"
+  },
+  "author": "Brian Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.6",
+    "inline-source-map": "^0.6.2",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
